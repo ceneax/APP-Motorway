@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">实时高速</string>
+
+    <string name="dialog_video_title">路段：</string>
+    <string name="dialog_video_title_unknown">未知</string>
+    <string name="dialog_video_loading_text_wait">准备中，稍等一会会~</string>
+    <string name="dialog_video_loading_text_err">这个摄像头坏掉了，换一个吧！</string>
+    <string name="dialog_video_weather_weather">天气</string>
+    <string name="dialog_video_weather_temp">温度</string>
+    <string name="dialog_video_weather_wind">风速</string>
+    <string name="dialog_video_weather_njd">能见度</string>
+
+    <string name="activity_main_bt_gs">高速</string>
+    <string name="activity_main_bt_gl">公路</string>
+    <string name="activity_main_bt_qd">汽渡</string>
+    <string name="activity_main_bt_fwq">服务区</string>
+    <string name="activity_main_bt_sfz">收费站</string>
+    <string name="activity_main_bt_event">事件</string>
+    <string name="activity_main_bt_change_pro">切换省份</string>
+    <string name="activity_main_choose_pro">选择一个省份</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="ceneax.app.motorway.mvvm.viewmodel.MainViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mvvm.ui.activity.MainActivity">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/activity_main_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp">
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_gs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/activity_main_bt_gs"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_gs_gray"
+                app:clickIcon="@drawable/ic_gs_normal"
+                app:selected="true"/>
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_gl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/activity_main_bt_gl"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_gl_gray"
+                app:clickIcon="@drawable/ic_gl_normal" />
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_ship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/activity_main_bt_qd"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_ship_gray"
+                app:clickIcon="@drawable/ic_ship_normal" />
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_fwq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/activity_main_bt_fwq"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_fwq_gray"
+                app:clickIcon="@drawable/ic_fwq_normal" />
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_sfz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/activity_main_bt_sfz"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_sfz_gray"
+                app:clickIcon="@drawable/ic_sfz_normal" />
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_main_bt_event"
+                android:textSize="12sp"
+                android:textColor="@color/color_FFFFFF"
+                app:normalIcon="@drawable/ic_event_gray"
+                app:clickIcon="@drawable/ic_event_normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp">
+
+            <ceneax.app.motorway.widget.RoundIconButton
+                android:id="@+id/activity_main_bt_change_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_main_bt_change_pro"
+                android:textColor="@color/color_FFFFFF"
+                app:backColor="@android:color/holo_red_light" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomThemeAttribute">
+        <attr name="normalTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundIconButton">
+        <attr name="normalIcon" format="reference" />
+        <attr name="clickIcon" format="reference" />
+        <attr name="backColor" format="color" />
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
+</resources>

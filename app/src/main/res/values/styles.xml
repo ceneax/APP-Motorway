@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_512DA8</item>
+        <item name="colorAccent">@color/color_7C4DFF</item>
+        <item name="android:windowBackground">@color/color_FFFFFF</item>
+
+        <item name="normalTextColor">@color/color_212121</item>
+    </style>
+    
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color_212121</item>
+        <item name="colorAccent">@color/color_676767</item>
+        <item name="android:windowBackground">@color/color_333333</item>
+
+        <item name="normalTextColor">@color/color_FFFFFF</item>
+    </style>
+    
+    <style name="TopToastAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/top_toast_in</item>
+        <item name="android:windowExitAnimation">@anim/top_toast_out</item>
+    </style>
+
+</resources>
